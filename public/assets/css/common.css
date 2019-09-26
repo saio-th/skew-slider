@@ -1,0 +1,249 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap&subset=japanese");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: top;
+  font-size: 0;
+  line-height: 0;
+}
+
+*, *:before, *:after {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type="button"],
+input[type="submit"],
+textarea {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+select {
+  border-radius: 0;
+}
+
+a,
+input,
+label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.fwb {
+  font-weight: bold !important;
+}
+
+.fwn {
+  font-weight: normal !important;
+}
+
+.tac {
+  text-align: center !important;
+}
+
+.tal {
+  text-align: left !important;
+}
+
+.tar {
+  text-align: right !important;
+}
+
+@media screen and (min-width: 768px) {
+  .pc {
+    display: block;
+  }
+  .pc-dib {
+    display: inline-block;
+  }
+  .sp, .sp-dib {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pc, .pc-dib {
+    display: none !important;
+  }
+  .sp {
+    display: block;
+  }
+  .sp-dib {
+    display: inline-block;
+  }
+}
+
+/*--------------------------------------------
+変数
+---------------------------------------------*/
+/*--------------------------------------------
+デフォルト設定
+---------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", "Noto Sans JP", "Original Yu Gothic", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+  text-align: center;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  padding: 3% 5%;
+}
+
+.header .ttl-01 {
+  font-size: 2rem;
+}
+
+.contents {
+  max-width: 1080px;
+  width: 100%;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+.footer {
+  padding: 3% 5%;
+}
+
+.footer .copyright {
+  font-size: .8rem;
+}
+
+/*----------------------------------------------------------
+コンテンツ
+----------------------------------------------------------*/
+.slider .slick-slide {
+  height: 500px;
+  transform: translateX(-22px) skew(-5deg);
+  overflow: hidden;
+}
+
+.slider .slick-slide a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.slider .slick-slide a img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  transform: translate(-50%, -50%) skew(5deg);
+}
+
+.slider .slick-prev, .slider .slick-next {
+  top: 86%;
+  z-index: 10;
+}
+
+.slider .slick-prev {
+  left: 40px;
+}
+
+.slider .slick-next {
+  right: auto;
+  left: 70px;
+}
+/*# sourceMappingURL=maps/common.css.map */

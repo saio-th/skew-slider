@@ -1,0 +1,69 @@
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Windows template
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+#--------------------------------------------------
+
+# vagrant
+vagrant/.vagrant
+.vagrant
+.vscode
+
+# Dev
+node_modules/
+.sass-cache/
+bower_components/
+*.lock
+
+# empty
+!.gitkeep
+.idea/
+
+# gulp, webpack
+public/package-lock.json
