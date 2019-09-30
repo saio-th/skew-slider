@@ -1,7 +1,21 @@
 function slickFunc () {
   $('.slider').slick({
-    dots: true
+    dots: false,
+    asNavFor: '.slider2'
   });
+  $('.slider2').slick({
+    dots: true,
+    asNavFor: '.slider'
+  });
+  // $('.thumbs').slick({
+  //   arrows: false,
+  //   asNavFor: '.slider',
+  //   slidesToShow: 4,
+  //   slidesToScroll: 4,
+  //   focusOnSelect: true,
+  //   vertical: true,
+  //   speed: 0
+  // });
 }
 
 //参考サイトのスライダー（https://www.ubsc.co.jp/）

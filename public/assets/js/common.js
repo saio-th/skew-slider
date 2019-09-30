@@ -1,2 +1,2 @@
-function slickFunc(){$(".slider").slick({dots:!0})}$(window).on("load",function(){}),$(window).on("resize",function(){}),$(function(){slickFunc()});
+function slickFunc(){$(".slider").slick({dots:!1,asNavFor:".slider2"}),$(".slider2").slick({dots:!0,asNavFor:".slider"})}$(window).on("load",function(){}),$(window).on("resize",function(){}),$(function(){slickFunc()});
 //# sourceMappingURL=maps/common.js.map
